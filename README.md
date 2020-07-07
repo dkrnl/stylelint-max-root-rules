@@ -1,6 +1,22 @@
 # stylelint-max-root-rules
 Limit the count of root rules.
 
+For example, the following patterns are considered violations:
+
+```scss
+.foo { }
+
+.foo-bar { }
+```
+
+The following patterns are not considered violations:
+
+```scss
+.foo { 
+    &-bar { }
+}
+```
+
 ## Installation
 
 1. If you haven't, install [stylelint]:
@@ -25,7 +41,7 @@ Add `stylelint-max-root-rules` to your stylelint config `plugins` array, then ad
         "stylelint-max-root-rules"
     ],
     "rules": {
-        "pitcher/max-root-rules": 300
+        "pitcher/max-root-rules": 1
     }
 }
 ```
