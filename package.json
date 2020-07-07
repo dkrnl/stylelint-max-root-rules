@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-max-root-rules",
+  "version": "0.1.0",
+  "description": "Limit the count of root rules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkrnl/stylelint-max-root-rules.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "scss",
+    "linter"
+  ],
+  "author": "dkrnl <dkrnl@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkrnl/stylelint-max-root-rules/issues"
+  },
+  "homepage": "https://github.com/dkrnl/stylelint-max-root-rules#readme",
+  "devDependencies": {
+    "stylelint": "^13.6.1"
+  }
+}
